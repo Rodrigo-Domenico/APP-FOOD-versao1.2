@@ -19,12 +19,10 @@
 
 
 body {
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3), var(--cor0));
-    background-repeat: no-repeat;
-    height: 100vh;
- 
-    
-
+    background-image: url(imagens/tela_inicial_hamburguer_comprimida.jpg);
+    background-size: cover;
+    position: relative;
+   
 }
 
 
