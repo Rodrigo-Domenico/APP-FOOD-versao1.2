@@ -69,14 +69,6 @@ div {
 }
 
 
-/* 
-#cadastro {
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 120px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
-} */
-
 #login {
     display: flex;
     flex-direction: column;
@@ -85,15 +77,16 @@ div {
     text-align: center;
 }
 
-/* #criarConta {
-    display: none;
-} */
-
-
 #login > input {
     text-align: center;
     background-color: #ababab;
-    margin-bottom: 50px;
+    margin-bottom: 10%;
+    width: 100%;
+}
+#login > select {
+    text-align: center;
+    background-color: #ababab;
+    margin-bottom: 10%;
     width: 100%;
 }
 
@@ -102,7 +95,6 @@ div {
     width: 100%;
     
 }
-
 
 footer>p {
     text-align: center;
@@ -119,70 +111,21 @@ footer>p>img {
 }
 
 
-
-
-@media screen and (max-width:991px) {
-
-    main {
-        border: none !important
-    }
-
-}
-
-@media screen and (max-width : 576px) {
-
-    #login input {
-
-        width: auto;
-    }
-
-
-}
-
-@media screen and (max-width : 576px) {
-
-
-    #container-b {
-
+@media screen and (max-width: 900px){
+    
+    #container-b{
         display: none;
     }
 
-    #container-a {
+    div {
         width: 100%;
-        margin: 10px;
-        background-color: white;
-
-    }
-
-    #login input {
-        background-color: rgb(200, 200, 200);
-        color: white !important;
-        position: relative;
-    }
-
-
-    #container-b img {
-        display: flex !important;
-    }
-
-
-    #EtecImg {
+        height: 100%;
         display: inline-block;
-        width: 10rem;
-        position: absolute;
-        top: 143px;
+   }
 
+    #container-a {
+       padding-right: 10%;
+       padding-left: 10%;
+        border-radius: 10px;
     }
-
-    #criarConta {
-        display: inline;
-    }
-
-
-    footer {
-        background-image: none;
-    }
-
-
-
 }
