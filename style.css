@@ -19,45 +19,34 @@
 
 
 body {
-    background-image: url(imagens/tela_inicial_hamburguer_comprimida.jpg);
+    background-image: url(imagem/tela_login/plano_de_fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
 }
 
 
 header>h1 {
     text-align: center;
     color: white;
-    margin: 20px calc(50% - 250px) 0px;
-    width: 500px;
-
+    padding-top: 2%;
+    margin: 0px;
 }
 
 main {
-
-    
     width: 80vw;
     height: 95vh;
     max-width: 800px;
     max-height: 500px;
     margin: auto;
     margin-top: 2%;
-
-}
-
-#container-b img {
-    position: relative;
-    
-    max-width: 70%;
-    max-height: 284px;
-    margin-top: 150px;
 }
 
 .container {
     display: flex;
 
 }
-
 
 
 div {
@@ -72,65 +61,64 @@ div {
     border-radius: 10px 0px 0px 10px;
 
 }
-
 #container-b {
     background-color: white;
+    background-image: url(imagem/tela_login/etec_logon.jpg);
     border-radius: 0px 10px 10px 0px;
 
 }
 
+
+/* 
 #cadastro {
     font-size: 1.5em;
     text-align: center;
     margin-top: 120px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
-}
+} */
 
 #login {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     margin: auto;
+    text-align: center;
 }
 
-#criarConta {
+/* #criarConta {
     display: none;
-}
+} */
 
 
-#login input {
+#login > input {
     text-align: center;
     background-color: #ababab;
     margin-bottom: 50px;
     width: 100%;
 }
 
-#login button {
+#login > button {
     background-color: #830101;
     width: 100%;
+    
 }
 
-footer {
-
-    margin: 4rem 0rem 0rem 0rem;
-    width: 100%;
-    padding: 10px 0px 5px 0px;
-    text-align: center;
-}
 
 footer>p {
-    margin: 0px 0px 13px 0px;
+    text-align: center;
     color: white;
+    bottom: 0px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
 }
 
 footer>p>img {
-    max-width: 20px;
+    max-width: 25px;
 }
 
-#EtecImg {
-    display: none;
-}
+
 
 
 @media screen and (max-width:991px) {
