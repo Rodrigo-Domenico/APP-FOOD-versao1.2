@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --cor0: #c40707;
+    --cor1: #d9d9d9;
+    --cor2: #77b513;
+    --cor3: #4a0000;
+    --cor4: #ababab;
+}
+
+
+body {
+    background-image: url(imagem/tela_inicial/cachorro_quente.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+
+header {
+    background-color: var(--cor0);
+    color: white;
+    text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.301);
+    margin: 0px;
+    width: 100vw;
+    height: 10%;
+    padding-left: 20px;
+}
