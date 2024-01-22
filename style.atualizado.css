@@ -2,6 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@font-face {
+    font-family: 'mustard';
+    src: url(fonts/Mustard_Bold_otf.otf) format('opentype'), url(fonts/Mustard_Medium_otf.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'hunting';
+    src: url(fonts/Hunting.otf) format('opentype'), url(fonts/Hunting.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
 
 :root {
     --cor0: #c40707;
@@ -21,31 +34,35 @@ body {
     margin: 0px;
 }
 
+#font_etec{
+    font-family: 'hunting';
+    font-size: 3em;
+   
+}
+
 header {
    
 }
 
 .container{
-    background-color: var(--cor0);
-    height: 10vh;
-    width: 50vw;
-    margin: 0px;
-    
+     width: 50vw;
 }
 
-.container-b {
-    background-color: var(--cor0);
-    height: 200px;
-    width: 50vw;
-    margin: 0px;
-    
+.container > #font_etec{
+    text-align: right;
 }
 
-
-
-#display_flex{
+#menu{
    display: flex;
-}
+   background-color: var(--cor0);
+   height: 10%;
+   margin: 0px;
+   padding: 0px;
+   color: white;
+   
+   
+
+}   
 
 .navegacao a,
 .navegacao button {
@@ -63,6 +80,7 @@ header {
     float: right;
    
 }
+
 
 
 footer {
