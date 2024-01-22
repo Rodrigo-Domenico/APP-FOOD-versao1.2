@@ -8,11 +8,21 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+@font-face {
     font-family: 'hunting';
     src: url(fonts/Hunting.otf) format('opentype'), url(fonts/Hunting.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
-    
+
+}
+
+@font-face {
+    font-family: 'knukle';
+    src: url(fonts/Knucklehead-1.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -22,6 +32,7 @@
     --cor2: #77b513;
     --cor3: #4a0000;
     --cor4: #ababab;
+    --cor5: #573320c2;
 }
 
 
@@ -32,42 +43,59 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0px;
+    background-attachment: fixed;
+
+   
 }
 
-#font_etec{
+.font_1 {
     font-family: 'hunting';
-    font-size: 3em;
-   
+    font-size: 2em;
 }
 
-header {
-   
+.font_2{
+    font-family: 'knukle';
+    font-size: 1.5em;
 }
 
-.container{
-     width: 50vw;
+
+
+header {}
+
+.container {
+    width: 50vw;
 }
 
-.container > #font_etec{
+.container>#font_etec {
     text-align: right;
 }
 
-#menu{
-   display: flex;
-   background-color: var(--cor0);
-   height: 10%;
-   margin: 0px;
-   padding: 0px;
-   color: white;
-   
-   
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
 
-}   
+#menu {
+
+    display: flex;
+    height: 10%;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    
+
+
+
+}
 
 .navegacao a,
 .navegacao button {
     color: white;
-    background-image: linear-gradient(to top, #e25757, #eea4a4);
+    /* background-image: linear-gradient(to top, #e25757, #eea4a4); */
+    background-color: var(--cor5);
     padding: 5px 30px;
     margin-right: 10px;
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.301);
@@ -78,17 +106,63 @@ header {
     text-decoration: none;
     border: none;
     float: right;
-   
+
 }
 
 
+.item{
+   
+    width: 10vw;
+    height: 25vh;
+    border-radius: 100px 0px 0px 0px;
+    
+
+}
+
+.informacao{
+    background-color: #ababab84;
+    width: 30vw;
+    height: 25vh;
+    border-radius: 0px 10px 100px 0px;
+    padding: 20px;
+
+}
+#item1{
+    background-image: url(imagens/carrossel/image\ 4.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#item2{
+    background-image: url(imagens/carrossel/image\ 5.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div_position{
+    display: flex;
+    height: 15%;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    overflow:hidden;
+    
+
+
+}
+
 
 footer {
-    background-color: var(--cor0);
+    background-color: #573320c2;
     bottom: 0;
     position: fixed;
     width: 100vw;
     text-align: center;
     color: white;
     margin: 0px;
+    height: 3%;
 }
+#c40707
+
+#c407
